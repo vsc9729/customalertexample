@@ -4,7 +4,7 @@ A customizable alert dialog component built with Jetpack Compose for Android app
 
 ## Adding to your project 
 
-In your app level build.gradle file under dependencies, add the following dependency: 
+In your app's build.gradle file under dependencies, add the following dependency: 
 ```gradle
 implementation ("com.github.vsc9729:customalertexample:1.0.0")
 ```
