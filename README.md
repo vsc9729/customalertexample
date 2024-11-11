@@ -8,7 +8,17 @@ In your app's build.gradle file under dependencies, add the following dependency
 ```gradle
 implementation ("com.github.vsc9729:customalertexample:1.0.0")
 ```
-
+Also, in your app's settings.gradle file add the following: 
+```
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+    }
+}
+```
 
 ## Features
 
