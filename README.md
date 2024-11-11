@@ -2,9 +2,16 @@
 
 A customizable alert dialog component built with Jetpack Compose for Android applications. This component provides a modern, Material Design 3 compliant dialog with flexible styling and callback options.
 
+## Adding to your project 
+
+In your app level build.gradle file under dependencies, add the following dependency: 
+```gradle
+implementation ("com.github.vsc9729:customalertexample:1.0.0")
+```
+
+
 ## Features
 
-- Material Design 3 styling
 - Customizable title and message
 - Configurable confirm and cancel buttons
 - Rounded corners and proper spacing
@@ -65,6 +72,13 @@ implementation "androidx.compose.material3:material3"
 implementation "androidx.compose.foundation:foundation"
 implementation "androidx.compose.ui:ui"
 ```
+
+## Demo application
+
+An example app is located within the repository at PATH: **./apks**
+
+It uses the same alert dialog for increasing and decreasing a counter. The counter value is displayed in a column followed by a button that triggers the alert which is followed by a Card that specifies which button withing the alert(either the increment or decrement) was pressed by the user. 
+
 
 ## Notes
 
