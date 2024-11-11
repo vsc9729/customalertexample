@@ -26,6 +26,10 @@ CustomAlertDialog(
 )
 ```
 
+## Parameters
+
+![Params Table]([http://url/to/img.png](https://github.com/vsc9729/customalertexample/blob/main/images/table.png))
+
 ## Styling
 
 The dialog uses the following styling properties:
