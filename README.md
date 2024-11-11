@@ -28,7 +28,7 @@ CustomAlertDialog(
 
 ## Parameters
 
-!(Params Table)[https://github.com/vsc9729/customalertexample/blob/main/images/table.png]
+![Params Table](https://github.com/vsc9729/customalertexample/blob/main/images/table.png?raw=true)
 
 ## Styling
 
